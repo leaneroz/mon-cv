@@ -134,12 +134,12 @@ let resumeButton = document.getElementById('resume-button')
 let opt = {
     margin: 1,
     filename: 'cv-leane-rodriguez',
-    image: { type: 'jpeg', quality: 0.98 },
+    image: { type: 'webp', quality: 1 },
     html2canvas: { scale: 4 },
     jsPDF: { format: 'a4', orientation: 'portrait' }
 }
 
-// Function to call areaCv and Html2Pdf options 
+// Function to call areaCv and Html2Pdf options
 function generateResume() {
     html2pdf().set(opt).from(areaCv).save();
 }
