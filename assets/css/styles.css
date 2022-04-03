@@ -32,7 +32,7 @@
   /*========== Margenes ==========*/
   --mb-1: 0.5rem;
   --mb-2: 1rem;
-  --mb-3: 1.5rem;
+  --mb-3: 0.3rem;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -639,7 +639,7 @@ img {
 
 .skills-button {
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .skills__name.hide {
